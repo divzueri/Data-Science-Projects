@@ -45,31 +45,23 @@ Due to the imbalanced nature of the target feature (only ~25% positive case), ea
 
 ## Model Metrics:
 
-| Model |Precision  | Recall | Accuracy (Train) | Accuracy (Test) | F1 | AUC 
+| Model |Precision  | Recall | Accuracy | F0.5 | AUC 
 |--|--|--|--|--|--|--|
-| Dummy Classifier (Baseline Model) | 0.00 | 0.00 | 75.29 | 75.29 | 0.00 | .50 
-| Logistic Regression (w/ Class Weights) |  |  |  |  |  |  
-| Logistic Regression (w/ Oversampling) |  |  |  |  |  |
-| Random Forest Classifier (w/ Class Weights) |  |  |  |  |  | 
-| Random Forest Classifier (w/ Oversampling) |  |  |  |  |  | 
-| SVC Linear (w/ Class Weights) |  |  |  |  |  | 
-| SVC Linear (w/ Oversampling) |  |  |  |  |  | 
-| SVC RBF (w/ Class Weights) |  |  |  |  |  | 
-| SVC RBF (w/ Oversampling) |  |  |  |  |  | 
-| XGBoost (w/ Class Weights) |  |  |  |  |  | 
-| XGBoost (w/ Oversampling) |  |  |  |  |  | 
+| Baseline: Dummy Classifier | 0.00 | 0.00 | 75.29 | 0.00 | .50 
+| Logistic Regression | 59.16 | 55.67 | 79.54 | 58.42 | .797
+| Random Forest Classifier | 58.95 | 62.90 | 80.23 | 59.89 | .800 | 
+| SVC Linear | 59.16 | 54.10 | 79.42 | 58.07 | .797 | 
+| SVC RBF | 57.91 | 59.45 | 79.29 | 58.20 | .790 | 
+| **XGBoost**  | **60.10** | **59.92** | **80.24** | **60.04** | **.796** 
 
 
 ## Key Insights
 
-Game-related features were found to have the most impact on revenue:
--   Games with Steam achievements
--   Indie games
--   RPGs (Role-Playing Games)
--   Co-op (Cooperative) games
--   Games released in summer
--   The number of tags listed in a game
+Attributes that highly influenced candidate interest in working for Company X:
+-   City development index
+-   Years of experience
+-   Current company information missing
+-   Lack of relevant experience
+-   Current full-time university student
 
-## Limitations
-
-- 
+Company X could either prioritize candidates meeting some (or all) of these criteria, or develop specific train-to-hire programs for certain candidate demographics (e.g. internship opportunities for students, career switch programs, etc).
