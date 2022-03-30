@@ -14,7 +14,7 @@ As resources are limited, Company X wants to reduce the cost and time of reachin
 
 ## Data
 
--   Sourced from Möbius on [kaggle](https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists)
+-   Sourced from MÃ¶bius on [kaggle](https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists)
     
 -   After cleaning and preprocessing, pre-split dataset contained 18,280 candidates and 40 features.
 
@@ -27,14 +27,14 @@ As resources are limited, Company X wants to reduce the cost and time of reachin
 
 
 ## Procedure
-• **Tools:** Pandas, NumPy, Matplotlib, Seaborn, Category Encoders, Scikit-Learn, Imbalanced-Learn
+â€¢ **Tools:** Pandas, NumPy, Matplotlib, Seaborn, Category Encoders, Scikit-Learn, Imbalanced-Learn
 
-• **Data:** Some modications were made to the raw dataset.
+â€¢ **Data:** Some modications were made to the raw dataset.
 1. Experience was binned into larger ranges.
 2. Cities that represented less than 1% of total candidates were binned into an 'Other' category.
 3. Rows with more than 5 missing values (out of 14 total columns) were dropped.
 
-• **Modeling:** Four general types of models were trained and tested:
+â€¢ **Modeling:** Four general types of models were trained and tested:
 
 1. Logistic Regression
 2. Random Forest Classifier
@@ -45,9 +45,9 @@ Due to the imbalanced nature of the target feature (only ~25% positive case), ea
 
 ## Model Metrics:
 
-| Model |Precision  | Recall | Accuracy | F0.5 | AUC |
-|--|--|--|--|--|--|--|
-| Baseline: Dummy Classifier | 0.00 | 0.00 | 75.29 | 0.00 | .50 
+| Model | Precision | Recall | Accuracy | F0.5 | AUC |
+|--|--|--|--|--|--|
+| Baseline: Dummy Classifier | 0.00 | 0.00 | 75.29 | 0.00 | .50 |
 | Logistic Regression | 59.16 | 55.67 | 79.54 | 58.42 | .797 |
 | Random Forest Classifier | 58.95 | 62.90 | 80.23 | 59.89 | .800 | 
 | SVC Linear | 59.16 | 54.10 | 79.42 | 58.07 | .797 | 
