@@ -1,4 +1,5 @@
 **![](https://lh6.googleusercontent.com/-qpF6VubG1HAsQSiB915zu2FRR1CEA5HkL9iZIjRgyrVj_t4r9oS6f2esZB0e3GAi2jEZ9ZRw4DmnUXJPHkXjwFDp85tKHTZCiUNU2cFBRJZrrVPIR8jQJL4s4ic06eJ-xH16uAH)**
+
 # STEAM GAMES: USING GAME FEATURES TO PREDICT REVENUE
 
 ## Context
@@ -10,7 +11,6 @@ Steam is a digital platform centered around PC games. Users of the platform can 
 **How does the store work?**
 
 Games on the Steam store are categorized using a user-defined tagging system, which allows for greater flexibility in game categorization and recommendations. 
-**![](https://lh5.googleusercontent.com/la2zWMpXxMJ65Mvr-8Y8IOwztQvcX9duzdBeHg_kJFJ8-4IZrBAjLZYU_LiW5A7k2YnO6dkdVvaRmCgjaIhmhNZQMT7f6YODRRC7lqNL3BEstV3-j4jSON9n8CwxoX_Sgq-OBtcY)**
 
 ## Objective
 1. Design an effective model to predict game revenue.
