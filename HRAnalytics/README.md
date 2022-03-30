@@ -45,14 +45,14 @@ Due to the imbalanced nature of the target feature (only ~25% positive case), ea
 
 ## Model Metrics:
 
-| Model |Precision  | Recall | Accuracy | F0.5 | AUC 
+| Model |Precision  | Recall | Accuracy | F0.5 | AUC |
 |--|--|--|--|--|--|--|
 | Baseline: Dummy Classifier | 0.00 | 0.00 | 75.29 | 0.00 | .50 
-| Logistic Regression | 59.16 | 55.67 | 79.54 | 58.42 | .797
+| Logistic Regression | 59.16 | 55.67 | 79.54 | 58.42 | .797 |
 | Random Forest Classifier | 58.95 | 62.90 | 80.23 | 59.89 | .800 | 
 | SVC Linear | 59.16 | 54.10 | 79.42 | 58.07 | .797 | 
 | SVC RBF | 57.91 | 59.45 | 79.29 | 58.20 | .790 | 
-| **XGBoost**  | **60.10** | **59.92** | **80.24** | **60.04** | **.796** 
+| **XGBoost**  | **60.10** | **59.92** | **80.24** | **60.04** | **.796** |
 
 
 ## Key Insights
