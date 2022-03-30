@@ -5,7 +5,7 @@
 
 Company X offers a few training courses related to data science and big data. Many people enroll in these courses. Of those who successfully complete and pass the course, only some are actively looking for a job change. Company X has collected demographic, educational, and career information on all course graduates in order to better understand which individuals are more likely to be looking for a job change.
 
-As resources are limited, Company X wants to reduce the cost and time of reaching out to candidates who are less likely to be interested in working for them. The aim of this project was to build a predictive model that determines which candidates are most likely to be looking for a job change, prioritizing reducing Type II errors. Additionally, the results from this project might add more insight into which types of workers are more likely to be open to a job change in general.
+As resources are limited, Company X wants to reduce the cost and time of reaching out to candidates who are less likely to be interested in working for them. The aim of this project was to build a predictive model that determines which candidates are most likely to be looking for a job change, prioritizing reducing Type I errors. Additionally, the results from this project might add more insight into which types of workers are more likely to be open to a job change in general.
 
 ## Objective
 1. Build a predictive model (prioritizing precision) to select candidates that are open to a job change.
@@ -41,7 +41,7 @@ As resources are limited, Company X wants to reduce the cost and time of reachin
 3. Support Vector Machine (Linear and RBF Kernels)
 4. Gradient Boost Classifier (XGBoost).
 
-Due to the imbalanced nature of the target feature (only ~25% positive case), each model was tested both with **a) different class weights** parameters, and **b)** **oversampling** of the minority class using the imbalanced-learn library. As the goal was to reduce Type II errors, each model was also tuned for precision using Grid Search CV.
+Due to the imbalanced nature of the target feature (only ~25% positive case), each model was tested both with **a) different class weights** parameters, and **b)** **oversampling** of the minority class using the imbalanced-learn library. As the goal was to reduce Type I errors, each model was also tuned for precision using Grid Search CV.
 
 ## Model Metrics:
 
